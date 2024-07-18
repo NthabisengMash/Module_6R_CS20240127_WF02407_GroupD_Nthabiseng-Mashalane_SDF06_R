@@ -11,13 +11,151 @@
 }
 
 body {
+    gap: 15px;
     font-family: "Open Sans", Arial, sans-serif;
     min-height: 100vh;
     background-color: #fafafa;
     color: #262626;
     padding-bottom: 3rem;
+    
 }
 
 img {
-    display: block;
+    height: 110px;
+    display: block;}
+
+    header{
+        display: inline-block;
+        margin-left: 17%;
+        margin-bottom: 30px;
+        
+    }
+
+.main{
+    height: 200px;
+    width: 400px;
+    margin: 1px auto;
+    display: grid;
+    grid-template-rows: 120px;
+    grid-template-columns: 120px 120px 120px;
+    column-gap: 1px;
+    padding-bottom: 1px;
+    
 }
+
+.profile-image{
+    margin: 1% 60%;
+    padding-right: 55%;
+    
+}
+
+.profile-image img{
+    height: 200px;
+    width: 210px;
+    margin-top: 10px;
+    border-radius: 50%;
+    border: 7px solid rgb(32, 144, 127);   
+}
+
+.profile-user-settings{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-left: 193px;
+    margin-top: 15px;
+    width: 40px;
+    height: 40px;
+    
+}
+.profile-user-name{
+    font-weight: lighter;
+    padding-left: 1px;
+    font-style: normal;
+
+}
+.profile-edit-btn{
+    margin: 10px;
+    padding: 1px 35px;
+    background-color: #fafafa;
+    border-radius: 2px;
+    border: 1px solid rgba(216, 215, 215, 0.63); 
+    height: 40; 
+    display: inline-flex; 
+}
+
+.profile-settings-btn{
+    margin: 1px;
+    height: 30px;
+    padding: 0 3px;
+    background-color: #fafafa;
+    border: none;
+}
+
+.profile-stats{
+    padding-right: 10px;
+    padding-left: 1px;
+    margin-top: 55px;
+    margin-left: 1px;
+    width: 10px;  
+}
+
+.profile-stats ul {
+    list-style: none;
+    padding-top: 34px;
+    padding-left: 100px;
+    width: 650px;
+    display: flex;
+    gap: 11px;
+    
+}
+
+.profile-stat-count{
+    font-weight: bold;
+}
+
+.profile-bio{
+    display: grid;
+    margin-left: 289px;
+    flex-wrap: nowrap;
+    padding: 25px;
+    grid-template-rows: 120px;
+    grid-template-columns: 350px 120px 120px;
+    column-gap: 1px;
+    font-size: 11px;
+
+}
+
+.profile-real-name{
+    font-weight: bold;
+    padding-left: 1px;
+}
+    
+
+.container .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    width: 700px;
+    height: 150px;
+    margin-left: 20%;
+    margin-right: 50%;
+    margin-top: 1%;
+
+}
+
+.gallery-image{
+    height: 357px;
+    width: 215px;
+    
+}
+
+.gallery ul{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+    gap: 5px;
+
+}
+
